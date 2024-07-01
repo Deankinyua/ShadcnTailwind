@@ -8,10 +8,12 @@ import {
   CardHeader,
   CardTitle,
 } from "../src/components/ui/card";
+import Avatar from "./resources/avatar";
 
 const App = () => {
   return (
     <div>
+      <Avatar></Avatar>
       <Card>
         <CardHeader>
           <CardTitle>Card Title</CardTitle>
